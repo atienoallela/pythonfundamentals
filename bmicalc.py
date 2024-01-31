@@ -1,0 +1,6 @@
+name = input("What is your name ?")
+weight = int(input("Enter weight here : "))
+height = int(input("Enter height here : "))
+bmi = weight/(height * height)
+print(type(bmi))
+print("The BMI for this person is " + str(bmi))
